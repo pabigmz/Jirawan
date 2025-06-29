@@ -1,5 +1,8 @@
 const config = {
-  plugins: ["@tailwindcss/postcss"],
+  plugins: [
+    "@tailwindcss/postcss",
+    require("@designbycode/tailwindcss-text-stroke"),
+  ],
 };
 
 export default config;
